@@ -73,7 +73,7 @@ class PowMr(minimalmodbus.Instrument):
         
 if __name__ == "__main__":
     # You can generate a Token from the "Tokens Tab" in the UI
-    token = "Yx1odVyPTiKFTHfOjqlAeMR2jHKx93N4qP_gK6Smn4jeCAdruoSXatYuPkSISO-QYcLwiiDN7_3HDBESYiDcNw=="
+    token = "<YOUR_TOKEN_HERE>"
     org = "home"
     bucket = "solar_controller"
     client = InfluxDBClient(url="http://localhost:8086", token=token)
